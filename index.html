@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#ff9ec4,#ffd6e7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+button{
+    padding:15px 35px;
+    font-size:18px;
+    border:none;
+    border-radius:50px;
+    background:#ff4d88;
+    color:white;
+    cursor:pointer;
+}
+
+h1{
+    color:#ff4d88;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Hey! ❤️</h1>
+    <p>Click the button below.</p>
+    <button onclick="showMessage()">Click Me</button>
+</div>
+
+<script>
+function showMessage(){
+    document.body.innerHTML = `
+    <div style="display:flex;justify-content:center;align-items:center;height:100vh;background:#fff0f6;font-family:Arial;text-align:center;">
+        <div>
+            <h1 style="color:#ff4081;font-size:55px;">✨ You're Beautiful ✨</h1>
+            <p style="font-size:24px;">Just wanted to remind you that You’re beautiful in every way that truly matters. Your smile brings joy, your eyes shine with warmth, and your kindness makes you unforgettable. Your confidence and genuine personality make you even more attractive. Beauty isn’t just about appearance—it’s about the light you bring into the lives of everyone around you every day. </p
